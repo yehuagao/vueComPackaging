@@ -1,0 +1,45 @@
+{
+  "name": "printerp",
+  "version": "1.0.0",
+  "description": "vuex+webpack+es6+sass",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --port 3333",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "babel-preset-vue-app": "^1.2.1",
+    "less": "^2.7.2",
+    "mint-ui": "^2.2.13",
+    "node-sass": "^4.6.1",
+    "qs": "^6.5.0",
+    "raw-loader": "^0.5.1",
+    "superagent": "^3.8.2",
+    "vue": "^2.2.1",
+    "vue-app": "^0.1.1",
+    "vue-router": "^2.4.0",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-component": "^0.10.1",
+    "babel-preset-latest": "^6.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "image-webpack-loader": "^3.3.0",
+    "less-loader": "^4.0.5",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^11.0.0",
+    "vue-template-compiler": "^2.1.10",
+    "vue-validator": "^3.0.0-alpha.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "author": "yehua",
+  "license": "ISC"
+}

@@ -1,0 +1,37 @@
+//字体字号
+$main-font:0.5067rem;//重要
+$general-font:0.4rem;//用于大多数文字，正文等
+$general-low-font:0.3733rem;//用于次要文字
+$weaker-font:0.32rem;//用于注释，备注
+//颜色
+//重要
+$main-color: #f90101;//用于重要文字、按钮、icon
+$mark-color: #ff9600;//重要标记颜色
+$main-text-color: #333333;//重要文字、图标
+//一般
+$general-text-color:#666666;//普通级别文字、图标信息等
+$general-lower-text-color:#999999;//低重级文字、图标信息
+//较弱
+$weaker-color:#e1e1e1;//分割线用色
+$weaker-bg-color:#f2f2f2;//内容区域的底色（背景用色）
+$white-color:#ffffff;//白色
+//按钮
+//常规按钮圆角
+$general-radius:0.0533rem;
+//主题按钮颜色
+$default-icon-mcolor:#f90101;//默认
+$active-icon-mcolor:#e00000;//按下激活
+//标记颜色
+$default-icon-markcolor:#ff9600;//默认
+$active-icon-markcolor:#f08d00;//按下激活
+//色弱
+$default-icon-wcolor:#999999;//默认
+$active-icon-wcolor:#cccccc;//按下激活
+
+//大按钮圆角
+$bigicon-radius:0.1333rem;
+//大按钮颜色
+$bigicon:#fefefe;
+
+
+
