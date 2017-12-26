@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div style="height:100%;width:100%">
 		
-		<videoComponent videoUrl="./src/assets/video/jq22.mp4"/>	
+		<videoComponent videoUrl="./src/assets/video/oceans.mp4"/>
 	</div>
 	
 </template>
@@ -22,7 +22,6 @@
 
 		},
 		mounted(){
-			
 		}
 	}
 </script>
